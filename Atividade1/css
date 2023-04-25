@@ -1,0 +1,10 @@
+*{
+    background-color: antiquewhite;
+}
+h2 {
+    color: rgb(210, 0, 14);
+}
+p {
+    font-family: 'Salesforce Sans', Arial, sans-serif;
+    color: black;
+}
