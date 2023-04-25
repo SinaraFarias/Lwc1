@@ -1,0 +1,20 @@
+import { LightningElement } from 'lwc';
+
+export default class LWC1 extends LightningElement {
+    
+empresa = "Farias.Cia";
+cnpj = "XX.XXX.XXX/0001-XX";
+Endereço = "Rua 10, n°1547, Centro";
+
+produto = "Câmera";
+des = "Câmera Intelbras VHD 1010 B G6 Bullet HD 720p Sensor 1/4 Lente 3.6mm HDCVI Menu OSD 10M IR Anti UV ";
+valor = "R$ 156,94 ";
+
+of1 = "R$ 146,94";
+of2 = "2x R$ 73,99";
+
+visible = true;
+    ocultarDiv(){
+        this.visible = !this.visible;
+        }
+}
