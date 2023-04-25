@@ -1,0 +1,30 @@
+<template>
+	<lightning-card>
+		<div class="slds-p-top_large" id="um">
+			<p>Empresa : {empresa}</p>
+			<p>CNPJ : {cnpj}</p>
+			<p>Endereço: {Endereço}</p>
+		</div>
+
+		<div class="slds-p-top_large" id="dois" if:true={visible}>
+			<p>Produto :{produto}</p>
+			<p>Descrição : {des}</p>
+			<p> Preço : {valor}</p>
+
+		</div>
+
+		<div class="slds-p-top_large" id="três" if:true={visible}>
+
+			<h2 class="slds-text-heading_medium">Promoção: </h2>
+			<p>Oferta1 : {of1}</p>
+			<p>Oferta2 : {of2}</p>
+
+		</div>
+
+		<div class="botão">
+			<lightning-button variant="Inverse Button" label="Ocultar div" title="Successful action" onclick={ocultarDiv}
+				class="slds-button slds-button_inverse"></lightning-button>
+		</div>
+	</lightning-card>
+
+</template>
