@@ -1,0 +1,15 @@
+h1{
+    color: rgb(86, 6, 177);
+    text-decoration: dashed;
+}
+h2{
+    color: rgb(86, 6, 177);
+    font-size: larger;
+font-style: normal;
+font-weight: 800;
+}
+.app {
+    background-color: #fafaf9;
+    height: 100vh;
+    overflow: scroll;
+}
